@@ -27,6 +27,7 @@ new class extends Component {
         $this->activeUsersCount = count($this->mousePositions) + 1;
     }
 
+
     public function generateRandomColor()
     {
         return '#' . str_pad(dechex(mt_rand(0, 0xffffff)), 6, '0', STR_PAD_LEFT);
